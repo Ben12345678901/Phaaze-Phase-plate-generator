@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Current phase-plate deck (Python 3.14)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${fileDirname}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "python": "C:\\Users\\benny\\AppData\\Local\\Programs\\Python\\Python314\\python.exe"
+        },
+        {
+            "name": "Editor Run button: current phase-plate deck",
+            "type": "debugpy",
+            "request": "launch",
+            "purpose": [
+                "debug-in-terminal"
+            ],
+            "program": "${file}",
+            "cwd": "${fileDirname}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "python": "C:\\Users\\benny\\AppData\\Local\\Programs\\Python\\Python314\\python.exe"
+        }
+    ]
+}
